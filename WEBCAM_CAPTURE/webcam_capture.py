@@ -139,6 +139,7 @@ def main():
 
     if path:
         print(f"📁 File path returned: {path}")
+    return path
 
 if __name__ == "__main__":
     main()
