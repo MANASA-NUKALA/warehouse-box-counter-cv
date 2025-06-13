@@ -1,61 +1,72 @@
-📦 Warehouse Box Counter - YOLOv11 Based CV App
-A real-time application that automatically detects and counts boxes in warehouse images or videos using YOLOv11 and a clean Python GUI.
+# 📦 Warehouse Box Counter - YOLOv11 Based CV App
 
-✅ Supports:
+A real-time application that **automatically detects and counts boxes** in warehouse images or videos using YOLOv11 and a clean Python GUI.
 
-📸 Webcam live feed
+✅ Supports:  
+- 📸 Webcam live feed  
+- 🖼️ Image upload  
+- 🎞️ Video file detection  
 
-🖼️ Image upload
+➡️ All from a **single, user-friendly interface**.
 
-🎞️ Video file detection
+---
 
-➡️ All from a single, user-friendly interface.
+## 🖥️ Demo Flow
 
-🖥️ Demo Flow
-🎛️ Choose input: Image / Video / Webcam
-🧠 YOLOv11 runs detection
-📦 Boxes are marked with bounding boxes
+🎛️ Choose input: Image / Video / Webcam  
+🧠 YOLOv11 runs detection  
+📦 Boxes are marked with bounding boxes  
 🔢 Total count is displayed on screen
 
-🚀 Getting Started
+---
+
+## 🚀 Getting Started
+
 Follow these steps to get the app up and running on your machine.
 
-1. Clone the Repository
-bash
-Copy
-Edit
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/MANASA-NUKALA/warehouse-box-counter-cv.git
 cd warehouse-box-counter-cv
-2. Create & Activate a Virtual Environment
-On Windows:
-bash
-Copy
-Edit
+```
+
+### 2. Create & Activate a Virtual Environment
+
+#### On Windows:
+
+```bash
 python -m venv venv
 venv\Scripts\activate
-On macOS/Linux:
-bash
-Copy
-Edit
+```
+
+#### On macOS/Linux:
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
-3. Install Dependencies
-bash
-Copy
-Edit
+```
+
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-4. Run the Application
-bash
-Copy
-Edit
+```
+
+### 4. Run the Application
+
+```bash
 cd gui
 python app_gui.py
+```
+
 ✅ You’ll see a simple interface where you can choose image, video, or webcam for detection.
 
-📁 Project Structure
-bash
-Copy
-Edit
+---
+
+## 📁 Project Structure
+
+```
 warehouse-box-counter-cv/
 ├── box/                    # Placeholder or legacy (if any)
 ├── box_counter/            # Core logic for counting boxes
@@ -71,31 +82,29 @@ warehouse-box-counter-cv/
 ├── yolov_11/               # Legacy or test data/models for YOLOv11
 ├── .gitignore              # Ignored files for Git
 └── README.md               # Project info
-⚙️ Tech Stack Used
-Python 3.8+
+```
 
-YOLOv11 via Ultralytics
+---
 
-OpenCV
+## ⚙️ Tech Stack Used
 
-Tkinter
+- Python 3.8+
+- YOLOv11 via Ultralytics
+- OpenCV
+- Tkinter
+- NumPy
 
-NumPy
+---
 
-👥 Team Contributors
-@MANASA-NUKALA
+## 👥 Team Contributors
 
-@vidyaganjasri
+- [@MANASA-NUKALA](https://github.com/MANASA-NUKALA)
+- [@vidyaganjasri](https://github.com/vidyaganjasri)
+- [@MissHaRin19](https://github.com/MissHaRin19)
+- [@AdulaAnusha22](https://github.com/AdulaAnusha22)
+- [@KPRANEETHA-1](https://github.com/KPRANEETHA-1)
+- [@Sudheshna193](https://github.com/Sudheshna193)
 
-@MissHaRin19
-
-@AdulaAnusha22
-
-@KPRANEETHA-1
-
-@Sudheshna193
-
-
-
+---
 
 
