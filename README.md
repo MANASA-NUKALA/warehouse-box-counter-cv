@@ -1,83 +1,88 @@
-# 📦 Warehouse Box Counter - CV-Based Application
+📦 Warehouse Box Counter - YOLOv11 Based CV App
+A real-time application that automatically detects and counts boxes in warehouse images or videos using YOLOv11 and a clean Python GUI.
 
-Welcome to our team project — a simple and effective tool that helps **automatically detect and count boxes** in warehouse images using **YOLOv11** and a user-friendly Python GUI.
+✅ Supports:
 
-Whether you're working with **live webcam feed**, **uploaded images**, or even **video files**, this application handles it smoothly and displays the result with bounding boxes and the total count — all from a single interface.
+📸 Webcam live feed
 
----
+🖼️ Image upload
 
-## 🛠️ Getting Started
+🎞️ Video file detection
 
-Want to try it out on your system? Just follow these steps to get up and running.
+➡️ All from a single, user-friendly interface.
 
-### 1. Clone the Repository
+🖥️ Demo Flow
+🎛️ Choose input: Image / Video / Webcam
+🧠 YOLOv11 runs detection
+📦 Boxes are marked with bounding boxes
+🔢 Total count is displayed on screen
 
-Start by cloning the project to your local machine:
+🚀 Getting Started
+Follow these steps to get the app up and running on your machine.
 
-```bash
+1. Clone the Repository
+bash
+Copy
+Edit
 git clone https://github.com/MANASA-NUKALA/warehouse-box-counter-cv.git
 cd warehouse-box-counter-cv
-2. Create and Activate a Virtual Environment
-It’s always a good idea to keep dependencies isolated. Here’s how:
-
-For Windows
-
+2. Create & Activate a Virtual Environment
+On Windows:
 bash
 Copy
 Edit
 python -m venv venv
 venv\Scripts\activate
-For macOS/Linux
-
+On macOS/Linux:
 bash
 Copy
 Edit
 python3 -m venv venv
 source venv/bin/activate
-3. Install Required Dependencies
-Now install all the necessary packages using:
-
+3. Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
 4. Run the Application
-Once setup is done, go into the GUI folder and start the app:
-
 bash
 Copy
 Edit
 cd gui
 python app_gui.py
-You’ll now see a simple interface to upload images or use the webcam/video for detection.
+✅ You’ll see a simple interface where you can choose image, video, or webcam for detection.
 
 📁 Project Structure
 bash
 Copy
 Edit
 warehouse-box-counter-cv/
-├── gui/                 # GUI interface (main entry point: app_gui.py)
-├── webcam_capture/      # Scripts for capturing images using webcam
-├── yolov8/              # YOLOv8 model weights and config
-├── yolo_module/         # YOLO detection-related scripts
-├── preprocessing/       # Optional image pre-processing
-├── box_counter/         # Core logic for counting boxes
-├── detect_contours.py   # Alternative box detection using contours
-├── main.py              # Initial script before GUI integration
-├── requirements.txt     # List of Python dependencies
-└── README.md            # You're here!
+├── box/                    # Placeholder or legacy (if any)
+├── box_counter/            # Core logic for counting boxes
+├── detect_contours.py      # Optional method using contours for box detection
+├── gui/                    # GUI interface (Main entry: app_gui.py)
+│   └── app_gui.py
+├── main.py                 # Initial script used for testing
+├── preprocessing/          # Optional image preprocessing steps
+├── requirements.txt        # Python dependencies
+├── webcam_capture/         # Webcam image capture logic
+├── yolo_module/            # YOLOv11 model inference logic
+├── yolov8/                 
+├── yolov_11/               # Legacy or test data/models for YOLOv11
+├── .gitignore              # Ignored files for Git
+└── README.md               # Project info
 ⚙️ Tech Stack Used
-Programming Language: Python
+Python 3.8+
 
-Object Detection Model: YOLOv11 (via Ultralytics)
+YOLOv11 via Ultralytics
 
-GUI Framework: Tkinter
+OpenCV
 
-Computer Vision Library: OpenCV
+Tkinter
+
+NumPy
 
 👥 Team Contributors
-This project was built with teamwork and collaboration. Huge thanks to:
-
 @MANASA-NUKALA
 
 @vidyaganjasri
@@ -89,31 +94,6 @@ This project was built with teamwork and collaboration. Huge thanks to:
 @KPRANEETHA-1
 
 @Sudheshna193
-
-📌 Notes
-Make sure your webcam permissions are enabled when using the live feed mode.
-
-YOLOv11 models and weights must be pre-downloaded into the yolov8/ folder.
-
-Performance may vary based on hardware — use GPU if available for faster inference.
-
-🏁 License
-This project is licensed under the MIT License.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
