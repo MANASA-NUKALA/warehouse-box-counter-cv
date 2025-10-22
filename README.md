@@ -1,5 +1,4 @@
 
-````markdown
 # Warehouse Box Counter
 
 The **Warehouse Box Counter** is a computer vision project built with Python that automates the process of detecting and counting boxes in warehouse environments. Using the powerful YOLOv11 object detection algorithm, this tool can process static images, webcam feeds, or video streams to identify boxes, draw bounding boxes around them, and display the total count in real-time. 
@@ -24,7 +23,7 @@ The application is designed to be efficient, easy to use, and helpful in industr
 | Technology | Purpose                        |
 |------------|--------------------------------|
 | Python     | Programming language           |
-| YOLOv11    | Object detection                |
+| YOLOv8     | Object detection                |
 | Tkinter    | Graphical User Interface (GUI) |
 | OpenCV     | Image and video processing     |
 
