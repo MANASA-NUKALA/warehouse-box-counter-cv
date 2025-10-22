@@ -28,7 +28,7 @@ The application is designed to be efficient, easy to use, and helpful in industr
 | OpenCV     | Image and video processing     |
 
 ---
-````
+
 ## Installation and Setup
 
 ### 1. Clone the Repository
